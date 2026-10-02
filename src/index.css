@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+/* Butun sahifa uchun asosiy ko'rinish */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+/* Post matnini ko'rsatishda qator uzilishlari saqlanishi uchun */
+.post-content {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
